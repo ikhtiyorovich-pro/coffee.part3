@@ -1,0 +1,352 @@
+@font-face {
+	font-family: "Fraunces";
+	font-style: normal;
+	font-weight: 400;
+	src: url("../fonts/fraunces-v10-latin-regular.woff2") format("woff2"),
+		url("../fonts/fraunces-v10-latin-regular.woff") format("woff");
+}
+@font-face {
+	font-family: "Fraunces";
+	font-style: normal;
+	font-weight: 900;
+	src: url("../fonts/fraunces-v10-latin-900.woff2") format("woff2"),
+		url("../fonts/fraunces-v10-latin-900.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Barlow";
+	font-style: normal;
+	font-weight: 500;
+	src: url("../fonts/barlow-v5-latin-500.woff2") format("woff2"),
+		url("../fonts/barlow-v5-latin-500.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Barlow";
+	font-style: normal;
+	font-weight: 400;
+	src: url("../fonts/barlow-v5-latin-regular.woff2") format("woff2"),
+		url("../fonts/barlow-v5-latin-regular.woff") format("woff");
+}
+
+* {
+	box-sizing: border-box;
+}
+body {
+	max-width: 1440px;
+	height: 3218px;
+	margin: auto;
+	padding: 0;
+}
+
+.header-links-wrapper {
+	max-width: 1280px;
+	height: 26px;
+	display: flex;
+	margin: auto;
+	margin-top: 10px;
+}
+.header-links-wrapper-item {
+	list-style: none;
+}
+.header-img {
+	margin-left: -40px;
+}
+.header-links-items {
+	max-width: 285px;
+	height: 15px;
+	display: flex;
+	margin-left: auto;
+	margin-right: -14px;
+	padding: 0;
+	text-align: center;
+}
+.header-links {
+	font-family: Barlow, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+	margin-right: 25px;
+	text-decoration: none;
+	color: #83888f;
+}
+.main-links-wrapper {
+	max-width: 1290px;
+	height: 450px;
+	background-image: url(../image/Bitmap.png);
+	background-repeat: no-repeat;
+	margin: 50px auto;
+}
+.main-links-item-wrapper {
+	max-width: 445px;
+	height: 182px;
+	padding-top: 7%;
+	margin-left: 40px;
+}
+.main-links-wrapper-item {
+	list-style: none;
+	margin-bottom: -30px;
+}
+.main-heading-link {
+	font-family: Fraunces, sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 40px;
+	line-height: 72px;
+	list-style: none;
+	text-decoration: none;
+	color: white;
+}
+.main-links-items {
+	list-style: none;
+}
+.main-paragraph-link {
+	font-family: Barlow, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	list-style: none;
+	text-decoration: none;
+	color: white;
+}
+.main-all-links-wrapper {
+	max-width: 1280px;
+	height: 653px;
+	margin: auto;
+	background-color: #2c343e;
+}
+.main-all-links-item-wrapper {
+	display: flex;
+	margin-left: 6%;
+	padding: 0;
+	padding-top: 19%;
+}
+.main-all-links-wrapper-item {
+	max-width: 285px;
+	height: 355px;
+	list-style: none;
+	margin: 0 50px;
+}
+.main-all-links-wrapper-item {
+	max-width: 285px;
+	height: 355px;
+	list-style: none;
+}
+.main-all-links-wrapper-item {
+	display: flex;
+	flex-direction: column;
+	max-width: 285px;
+	height: 355px;
+	list-style: none;
+}
+.main-all-heading-link {
+	width: 255px;
+	height: 73px;
+	font-family: Fraunces, sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 32px;
+	line-height: 36px;
+	list-style: none;
+	text-decoration: none;
+	color: white;
+}
+.main-all-heading {
+	font-family: Fraunces, sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 32px;
+	line-height: 36px;
+	list-style: none;
+	text-decoration: none;
+	color: #fdd6ba;
+}
+.main-number-wrapper {
+	width: 255px;
+	height: 356px;
+	list-style: none;
+	margin-top: 100px;
+	margin-left: 140px;
+
+	border-radius: 10px;
+}
+.main-number {
+	margin-bottom: 40px;
+}
+.main-number-links {
+	font-family: Fraunces, sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 32px;
+	list-style: none;
+	text-decoration: none;
+	color: #333d4b;
+}
+.main-number-one {
+	color: #0e8784;
+}
+.main-number-links2 {
+	font-family: Fraunces, sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 32px;
+	list-style: none;
+	text-decoration: none;
+	color: #333d4b;
+	opacity: 0.4;
+}
+.main-number-links3 {
+	font-family: Fraunces, sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 32px;
+	list-style: none;
+	text-decoration: none;
+	color: #333d4b;
+	opacity: 0.4;
+}
+.main-number-links4 {
+	font-family: Fraunces, sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 32px;
+	list-style: none;
+	text-decoration: none;
+	color: #333d4b;
+	opacity: 0.4;
+}
+.main-number-links5 {
+	font-family: Fraunces, sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 32px;
+	list-style: none;
+	text-decoration: none;
+	color: #333d4b;
+	opacity: 0.4;
+}
+.main-number-items {
+	display: flex;
+}
+.main-bottom-heading {
+	font-family: Fraunces, sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 40px;
+	line-height: 64px;
+	list-style: none;
+	text-decoration: none;
+	text-align: center;
+	color: #83888f;
+}
+.main-bottom-items-wrapper {
+	display: flex;
+	padding: 0;
+}
+.main-bottom-item {
+	margin-left: auto;
+	margin-right: 150px;
+}
+.main-bottom-items {
+	width: 228px;
+	height: 250px;
+	list-style: none;
+	margin-left: 20px;
+	padding-top: 30px;
+	padding-left: 20px;
+	background-color: #dddddd;
+
+	border-radius: 10px;
+}
+.main-bottom-links {
+	text-decoration: none;
+	color: #333d4b;
+}
+.main-bottom-heading-items {
+	font-family: Fraunces, sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 32px;
+	list-style: none;
+	text-decoration: none;
+}
+.main-bottom-paragraph {
+	width: 172px;
+	height: 78px;
+	display: flex;
+	flex-direction: column;
+	font-family: Barlow, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	list-style: none;
+}
+/* footer */
+.site-footer-section {
+	margin-top: 200px;
+}
+.site-footer-wrapper {
+	width: 1280px;
+	height: 120px;
+	position: relative;
+	display: flex;
+
+	margin: auto;
+	align-items: center;
+	list-style: none;
+	background-color: #2c353e;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.site-footer-wrapper-logo {
+	font-family: Fraunces 9pt, sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 25px;
+	line-height: 25px;
+	display: flex;
+	margin-left: 50px;
+	padding: 0;
+}
+
+/* footer links */
+.footer-logo {
+	color: white;
+}
+.site-footer-items-links {
+	text-align: center;
+	margin-left: 93px;
+}
+.links-wrapper {
+	height: 15px;
+	display: flex;
+	list-style: none;
+}
+.footer-links {
+	font-family: Barlow, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+	text-decoration: none;
+	padding-left: 30px;
+	color: #83888f;
+}
+.site-items-second-links {
+	display: flex;
+	margin-left: auto;
+	margin-right: 50px;
+}
+
+.site-messengers {
+	padding-right: 25px;
+}
